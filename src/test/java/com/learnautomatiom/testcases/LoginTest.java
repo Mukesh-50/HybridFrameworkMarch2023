@@ -21,6 +21,12 @@ public class LoginTest extends BaseClass
 		boolean status=page.captureErrorMessage().contains(Constants.userDoesNotExist);
 		
 		Assert.assertTrue(status,"Error messages is displayed as expected");
+
+		System.out.println("Test Completed");
+
+		System.out.println("Test Data Clean up activity Completed");
+
+		System.out.println("Browser Terminated");
 		
 	}
 	
