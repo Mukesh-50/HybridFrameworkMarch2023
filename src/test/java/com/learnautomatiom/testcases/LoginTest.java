@@ -27,7 +27,9 @@ public class LoginTest extends BaseClass
 		System.out.println("Test Data Clean up activity Completed");
 
 		System.out.println("Browser Terminated");
-		
+
+		System.out.println("End Test Case");
+
 	}
 	
 	
