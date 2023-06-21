@@ -16,6 +16,9 @@ public class SmokeTest extends BaseClass
 		Assert.assertTrue(driver.getCurrentUrl().contains("login"),"URL does not contain login");
 		
 		System.out.println("Test Ended");
+
+		System.out.println("Mukesh");
+		
 	
 	}
 	
