@@ -22,8 +22,14 @@ public class LoginTest extends BaseClass
 		
 		Assert.assertTrue(status,"Error messages is displayed as expected");
 
+		System.out.println("Test Completed");
+
+		System.out.println("Test Data Clean up activity Completed");
+
+		System.out.println("Browser Terminated");
+
 		System.out.println("End Test Case");
-		
+
 	}
 	
 	
